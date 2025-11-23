@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-image: url("https://images.pexels.com/photos/1671325/pexels-photo-1671325.jpeg"),
+    linear-gradient(rgba(0,0,0, 0.9), rgba(0,0,0, 0.9));
+    background-size: 100% 100%;
+}
+
+.rain {
+    width: 100vw;
+    height: 100vh;
+    background-image: url("images/rain.png");
+    animation: rain 0.4s linear infinite;
+}
+
+@keyframes rain {
+    0% {
+        background-position: 0px 0px;
+    }
+    100% {
+        background-position: 10% 100%;
+    }
+}

@@ -195,3 +195,9 @@
         rotate: 0deg;
     }
 }
+
+.rain-box {
+  background-image: url("images/raining.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
