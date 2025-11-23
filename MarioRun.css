@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  background-image: url(images/mario-bg.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+img {
+  width: 200px;
+  position: absolute;
+  bottom: 8.7%;
+  animation: mariorun 3s linear infinite;
+}
+
+@keyframes mariorun {
+  0% {
+    translate: -80%;
+  }
+  100% {
+    translate: 100vw;
+  }
+}
