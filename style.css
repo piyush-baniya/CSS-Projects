@@ -16,7 +16,7 @@ body {
   max-width: 1200px;
   grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
   gap: 40px;
-  padding: 20px;
+  padding: 10px;
   margin: auto;
 }
 
