@@ -26,6 +26,8 @@ section {
   text-align: center;
   background-image: url("https://images.pexels.com/photos/414144/pexels-photo-414144.jpeg");
   background-size: 100% auto;
+  background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
@@ -33,18 +35,27 @@ section {
 .section-2 {
   background-image: url("https://images.pexels.com/photos/33045/lion-wild-africa-african.jpg");
   background-repeat: no-repeat;
-  background-size: 100% auto;
+  background-size: cover;
+  background-position: center;
 }
 
 .section-3 {
   background-image: url("https://images.pexels.com/photos/845242/pexels-photo-845242.jpeg");
   background-repeat: no-repeat;
-  background-size: 100% auto;
+  background-size: cover;
+  background-position: center;
   background-attachment: fixed;
 }
 
 .section-4 {
   background-image: url("https://images.pexels.com/photos/2666598/pexels-photo-2666598.jpeg");
   background-repeat: no-repeat;
-  background-size: 100% auto;
+  background-size: cover;
+  background-position: center;
+}
+
+@media (max-width: 768px) {
+  h2 {
+    font-size: 40px;
+  }
 }
