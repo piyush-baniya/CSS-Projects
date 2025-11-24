@@ -25,7 +25,7 @@ body {
 }
 
 .sidebar {
-  height: 80vh;
+  height: 90vh;
   background-color: #2a2a2a;
   border: 1px solid #3a3a3a;
   border-radius: 16px;
@@ -455,4 +455,12 @@ nav a:hover {
   background-image: url("images/raining.png");
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+
+@media screen and (min-width: 795px) {
+ .sidebar {
+  position: sticky;
+  top: 20px;
+ }
 }
